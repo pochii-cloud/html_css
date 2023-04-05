@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*style of main div holding the card*/
+
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/*styling of the card*/
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255,255,255,255)#f1f1f1;
+    box-shadow: 10px 10px 5px rgba(244,247,254,255);
+    border-radius: 25px;
+    height: 350px;
+    width: 500px;
+    
+}
+
+/*the card has two sections,section1 and section2*/
+
+
+.section1{
+    padding: 10px;
+    width: 100%;
+    background:linear-gradient(to bottom, rgba(100,65,253,255),rgba(49,44,234,255));
+    color: white;
+    border-radius: 20px;
+    display: grid;
+    font-family: 'lato', sans-serif;
+
+}
+.section1-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.section1body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marks{
+   background:linear-gradient(to bottom,rgba(73,37,207,255),rgba(71,52,238,255));
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    color: white;
+    
+}
+.marks-score{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 25%;
+}
+.marks-score-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
+}
+.section1-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.section1-footer-g{
+    font-weight: bolder;
+}
+.section1-footer-p{
+    margin-top: 10px;
+    padding: 5px 8px;
+    opacity: .8;
+    font-size: small;
+}
+.section1-footer span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1-footer,h3{
+   
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling the second section of the card*/
+
+.section2{
+    padding: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.div1{
+    background-color: rgba(255,246,245,255);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+    font-size: 13px;
+    color: rgba(245,167,169,255);
+}
+.span{
+    display: flex;
+    align-items: flex-end;
+}
+.span1{
+    color: rgba(60,65,83,255);
+    font-weight: bold;
+    margin-right: 5px;
+}
+.span2{
+    color: rgba(148,150,166,255);
+    font-weight: bold;
+}
+.span3{
+    margin-right: 5px;
+}
+.icon{
+    display: flex;
+}
+.icon span{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.div2{
+    background-color: rgba(255,251,242,255);
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+    font-size: 13px;
+    
+    color:rgba(236,180,68,255);
+}
+.div3{
+    background-color: rgba(242,251,250,255);
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+    font-size: 13px;
+    color: rgba(94,180,163,255);
+    
+}
+.div4{
+    background-color:rgba(243,243,253,255);
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+    font-size: 13px;
+    color: rgba(90,99,194,255) ;
+}
+.btn{
+    background-color:rgba(48,59,89,255);
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
+    border: none;
+    margin-top: 30px;
+}
+.btn:hover{
+    cursor:pointer;
+}
